@@ -23,9 +23,9 @@ export default {
 <path d="M92-14H136L139 17C126 21 112 22 99 22Z" fill="#12A594"/>
 <rect x="120" y="81" width="62" height="15" rx="4" fill="#FFFFFF"/>
 <path d="M132 85V92M142 85V92M152 85V92M162 85V92M172 85V92" stroke="#C5CEDB" stroke-width="2"/>
-<path d="M122 66C124 60 130 57 138 58L158 63C165 65 170 68 176 71L186 76C191 79 190 83 185 83H127C123 83 121 80 121 76Z" fill="#F6C9A8"/>
-<path d="M162 72L180 78M156 77L176 82" fill="none" stroke-width="2" opacity=".4"/>
-<path d="M128 78C136 80 146 80 154 78" fill="none" stroke-width="2"/>
+<path d="M121 79C120 70 122 62 130 59C138 57 150 60 160 64L178 71C186 74 192 78 192 81C192 83 190 84 187 84H126C123 84 121 82 121 79Z" fill="#F6C9A8"/>
+<path d="M159 70L183 77.5M156 76L180 81.5" fill="none" stroke-width="2" opacity=".55"/>
+<path d="M128 70C136 70 148 73 155 76.5C159 78.5 158 82.5 154 82.5H132C127 82.5 125 76 128 70Z" fill="#F6C9A8" stroke-width="2.25"/>
 </g>
 </g>
 </svg>`,
@@ -49,7 +49,7 @@ export default {
 <g transform="translate(122 113) rotate(16)"><g class="yr-b yr-b2"><rect x="-12" y="-28" width="24" height="56" rx="5" fill="#FFFFFF"/><path d="M-5-21V21" stroke="#C5CEDB" stroke-width="2"/></g></g>
 <g transform="translate(144 113) rotate(16)"><g class="yr-b yr-b3"><rect x="-12" y="-28" width="24" height="56" rx="5" fill="#FFFFFF"/><path d="M-5-21V21" stroke="#C5CEDB" stroke-width="2"/></g></g>
 <g transform="translate(166 113) rotate(16)"><g class="yr-b yr-b4"><rect x="-12" y="-28" width="24" height="56" rx="5" fill="#FFFFFF"/><path d="M-5-21V21" stroke="#C5CEDB" stroke-width="2"/></g></g>
-<g class="yr-roll"><path d="M98 86L104 66H114L108 87Z" fill="#FFFFFF"/><g transform="translate(110 56)"><g class="yr-spin"><circle r="13" fill="#FFFFFF"/><circle r="5" fill="#E9EEF5" stroke-width="2"/><path d="M0-9A9 9 0 0 1 9 0" fill="none" stroke="#C5CEDB" stroke-width="2"/></g></g></g>
+<g class="yr-roll"><path d="M99 60L96 88H120L121 60Z" fill="#FFFFFF"/><path d="M99 40H121A6 11 0 0 1 121 62H99A6 11 0 0 1 99 40Z" fill="#FFFFFF"/><path d="M104 44V58M110 44V58" stroke="#C5CEDB" stroke-width="2"/><ellipse cx="121" cy="51" rx="6" ry="11" fill="#FFFFFF"/><ellipse cx="121" cy="51" rx="2.4" ry="4.4" fill="#E9EEF5" stroke-width="2"/></g>
 </g>
 <g transform="translate(266 40) rotate(-30)"><g class="yr-pl"><rect x="-32" y="-11" width="64" height="22" rx="11" fill="#FFC53D"/><rect x="-11" y="-8" width="22" height="16" rx="3" fill="#FFFFFF" stroke-width="2.25"/><path d="M-24-3h.1M-19 3h.1M-24 3h.1M-19-3h.1M19-3h.1M24 3h.1M19 3h.1M24-3h.1" stroke-width="2.6"/></g></g>
 <g transform="translate(206 62)"><path class="yr-s1" d="M0-8Q1-1 8 0Q1 1 0 8Q-1 1-8 0Q-1-1 0-8Z" fill="#FFC53D" stroke-width="1.8"/></g>
@@ -74,18 +74,19 @@ export default {
 <path d="M186 94L189 104M131 128L133 136" fill="none" stroke="#C5CEDB" stroke-width="2"/>
 <rect x="128" y="72" width="64" height="10" rx="3" fill="#FFFFFF"/>
 <path d="M133 86H187" stroke="#E5484D" stroke-width="3"/>
-<g transform="translate(161 117) rotate(-22)">
-<rect x="-12" y="-25" width="24" height="48" rx="12" fill="#FFFFFF"/>
-<path d="M-12-6V-13A12 12 0 0 1 12-13V-9Z" fill="#F6C9A8"/>
-<rect x="-6" y="-22" width="12" height="9" rx="4" fill="#FFFFFF" stroke-width="2"/>
-<path d="M-11 4L11-1M-11 13L11 8" stroke="#C5CEDB" stroke-width="2"/>
+<g transform="translate(161 113) rotate(-20)">
+<rect x="-12" y="-26" width="24" height="50" rx="12" fill="#F6C9A8"/>
+<path d="M-12-3L12-8V12A12 12 0 0 1-12 12Z" fill="#FFFFFF"/>
+<path d="M-12 7L12 2M-12 16L11 11" stroke="#9EC5FF" stroke-width="2"/>
+<rect x="-6.5" y="-23" width="13" height="10" rx="4.5" fill="#FFFFFF" stroke-width="2"/>
+<path d="M-5-9H4" stroke-width="2" opacity=".45"/>
 </g>
 <path d="M134 94V134" stroke="#FFFFFF" stroke-width="3"/>
 </g>
-<g transform="translate(97 96) rotate(12)"><g class="km-i km-i1"><rect x="-10" y="-10" width="20" height="20" rx="4" fill="#FFFFFF"/><path d="M-4-4H3" stroke="#9EC5FF" stroke-width="2.5"/></g></g>
-<g transform="translate(223 97) rotate(-10)"><g class="km-i km-i2"><rect x="-11" y="-11" width="22" height="22" rx="4" fill="#FFFFFF"/><path d="M-5-5H3" stroke="#9EC5FF" stroke-width="2.5"/></g></g>
-<g transform="translate(104 126) rotate(30)"><g class="km-i km-i3"><rect x="-7" y="-7" width="14" height="14" rx="3" fill="#FFFFFF"/></g></g>
-<g clip-path="url(#kopma-cp)"><path class="km-w" d="M40 98q10-5 20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0V170H40Z" fill="#9EC5FF" fill-opacity=".55" stroke="#3E7BFA" stroke-width="2.5"/></g>
+<g transform="translate(97 102) rotate(12)"><g class="km-i km-i1"><rect x="-10" y="-10" width="20" height="20" rx="4" fill="#FFFFFF"/><path d="M-4-4H3" stroke="#9EC5FF" stroke-width="2.5"/></g></g>
+<g transform="translate(223 103) rotate(-10)"><g class="km-i km-i2"><rect x="-11" y="-11" width="22" height="22" rx="4" fill="#FFFFFF"/><path d="M-5-5H3" stroke="#9EC5FF" stroke-width="2.5"/></g></g>
+<g transform="translate(104 132) rotate(30)"><g class="km-i km-i3"><rect x="-7" y="-7" width="14" height="14" rx="3" fill="#FFFFFF"/></g></g>
+<g clip-path="url(#kopma-cp)"><path class="km-w" d="M40 104q10-5 20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0V170H40Z" fill="#9EC5FF" fill-opacity=".42" stroke="#3E7BFA" stroke-width="2.5"/></g>
 <path d="M70 64H250L238 150Q236 158 228 158H92Q84 158 82 150Z" fill="none"/>
 <rect x="62" y="58" width="196" height="10" rx="5" fill="#E9EEF5"/>
 <path d="M84 76L92 140" stroke="#FFFFFF" stroke-width="4" opacity=".85"/>
@@ -110,10 +111,10 @@ export default {
 <g fill="#FFFFFF" stroke-width="5.5"><rect x="98" y="88" width="118" height="11" rx="2"/><circle cx="96" cy="87" r="6.5"/><circle cx="96" cy="100" r="6.5"/><circle cx="218" cy="87" r="6.5"/><circle cx="218" cy="100" r="6.5"/></g>
 <g fill="#FFFFFF" stroke="none"><rect x="98" y="88" width="118" height="11" rx="2"/><circle cx="96" cy="87" r="6.5"/><circle cx="96" cy="100" r="6.5"/><circle cx="218" cy="87" r="6.5"/><circle cx="218" cy="100" r="6.5"/></g>
 <path d="M151 87L159 91.5L152 95L160 100" fill="none" stroke="#E5484D" stroke-width="3"/>
-<g transform="translate(54 54)"><g class="kr-t kr-t1"><rect x="-7" y="0" width="14" height="78" rx="4" fill="#FFFFFF"/><path d="M-4 3L-9-5M4 3L9-5" fill="none" stroke-width="2.5"/><circle cy="2" r="4" fill="#FFFFFF" stroke-width="2.25"/></g></g>
-<g transform="translate(108 54)"><g class="kr-t kr-t2"><rect x="-7" y="0" width="14" height="78" rx="4" fill="#FFFFFF"/><path d="M-4 3L-9-5M4 3L9-5" fill="none" stroke-width="2.5"/><circle cy="2" r="4" fill="#FFFFFF" stroke-width="2.25"/></g></g>
-<g transform="translate(200 54)"><g class="kr-t kr-t3"><rect x="-7" y="0" width="14" height="78" rx="4" fill="#FFFFFF"/><path d="M-4 3L-9-5M4 3L9-5" fill="none" stroke-width="2.5"/><circle cy="2" r="4" fill="#FFFFFF" stroke-width="2.25"/></g></g>
-<g transform="translate(234 54)"><g class="kr-t kr-t4"><rect x="-7" y="0" width="14" height="78" rx="4" fill="#FFFFFF"/><path d="M-4 3L-9-5M4 3L9-5" fill="none" stroke-width="2.5"/><circle cy="2" r="4" fill="#FFFFFF" stroke-width="2.25"/></g></g>
+<g transform="translate(54 54)"><g class="kr-t kr-t1"><rect x="-7" y="0" width="14" height="78" rx="4" fill="#FFFFFF"/><path d="M0 7V71" stroke="#C5CEDB" stroke-width="2"/></g></g>
+<g transform="translate(108 54)"><g class="kr-t kr-t2"><rect x="-7" y="0" width="14" height="78" rx="4" fill="#FFFFFF"/><path d="M0 7V71" stroke="#C5CEDB" stroke-width="2"/></g></g>
+<g transform="translate(200 54)"><g class="kr-t kr-t3"><rect x="-7" y="0" width="14" height="78" rx="4" fill="#FFFFFF"/><path d="M0 7V71" stroke="#C5CEDB" stroke-width="2"/></g></g>
+<g transform="translate(234 54)"><g class="kr-t kr-t4"><rect x="-7" y="0" width="14" height="78" rx="4" fill="#FFFFFF"/><path d="M0 7V71" stroke="#C5CEDB" stroke-width="2"/></g></g>
 </g>
 </svg>`,
   },
@@ -300,7 +301,7 @@ export default {
 <path d="M89 72L75 77V101L89 100Z" fill="#E9EEF5" stroke-width="2"/>
 <path class="rt-pa" d="M146 48C186 24 246 30 276 66" fill="none" stroke="#E5484D" stroke-width="2.5" stroke-dasharray="2 7"/>
 <path d="M274 54L276 66L265 62" fill="none" stroke="#E5484D" stroke-width="2.5"/>
-<g class="rt-pr">
+<g class="rt-pr"><g class="rt-tl">
 <path d="M150 116L142 138L148 159M156 116L164 138L167 159" fill="none" stroke-width="11"/>
 <path d="M150 116L142 138L148 159M156 116L164 138L167 159" fill="none" stroke="#3E7BFA" stroke-width="6"/>
 <path d="M136 74C144 70 156 74 158 84L160 120H144L134 84Z" fill="#F97316"/>
@@ -309,14 +310,15 @@ export default {
 <path d="M112 118H94V138" fill="none" stroke-width="12.5"/>
 <path d="M112 118H94V138" fill="none" stroke="#8E4EC6" stroke-width="7.5"/>
 <rect x="106" y="86" width="20" height="36" rx="8" fill="#9EC5FF"/>
-<circle cx="121" cy="78" r="9" fill="#F6C9A8"/>
 <path d="M140 77Q124 77 112 87" fill="none" stroke-width="9"/>
 <path d="M140 77Q124 77 112 87" fill="none" stroke="#F97316" stroke-width="4.5"/>
-<circle cx="111" cy="87" r="4" fill="#F6C9A8"/>
+<circle cx="121" cy="78" r="9.5" fill="#F6C9A8"/>
+<path d="M113 73C114 68 119 66 124 67C128 68 131 72 131 77C126 73 119 72 113 73Z" fill="#1F2A44"/>
+<circle cx="112" cy="86.5" r="4" fill="#F6C9A8"/>
 <path d="M150 82Q132 104 110 100" fill="none" stroke-width="10"/>
 <path d="M150 82Q132 104 110 100" fill="none" stroke="#F97316" stroke-width="5.5"/>
 <circle cx="110" cy="100" r="4.5" fill="#F6C9A8"/>
-</g>
+</g></g>
 </g>
 </svg>`,
   },

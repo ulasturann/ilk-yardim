@@ -1,0 +1,184 @@
+/* Grup "c" sahne animasyonlari - tum secimler .sc-KEY ile baslar */
+.sc-hayvan .dog{transform-box:fill-box;transform-origin:50% 100%;animation:hayvan-tilt 3.2s ease-in-out infinite}
+@keyframes hayvan-tilt{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+.sc-hayvan .tongue{transform-box:fill-box;transform-origin:50% 0;animation:hayvan-pant 1.2s ease-in-out infinite}
+@keyframes hayvan-pant{0%,50%,100%{transform:scaleY(1)}25%,75%{transform:scaleY(1.28)}}
+.sc-hayvan .blink{transform-box:fill-box;transform-origin:center;animation:hayvan-blink 3.6s ease-in-out infinite}
+@keyframes hayvan-blink{0%,86%,100%{transform:scaleY(1)}91%{transform:scaleY(.12)}}
+.sc-hayvan .ear-r{transform-box:fill-box;transform-origin:20% 90%;animation:hayvan-twitch 3.6s ease-in-out infinite}
+@keyframes hayvan-twitch{0%,38%,54%,100%{transform:rotate(0)}44%{transform:rotate(-12deg)}}
+.sc-hayvan .flow{animation:hayvan-flow 1.2s linear infinite}
+@keyframes hayvan-flow{to{stroke-dashoffset:-14}}
+.sc-hayvan .bub{transform-box:fill-box;transform-origin:center;animation:hayvan-bl 3s ease-out infinite}
+.sc-hayvan .br{animation-name:hayvan-br}
+.sc-hayvan .b2{animation-duration:3.7s}.sc-hayvan .b3{animation-duration:2.6s}.sc-hayvan .b4{animation-duration:3.3s}.sc-hayvan .b5{animation-duration:2.8s}
+@keyframes hayvan-bl{0%{transform:translate(0,0) scale(.4);opacity:0}15%{opacity:1}80%{opacity:.9}100%{transform:translate(-5px,-56px) scale(1.05);opacity:0}}
+@keyframes hayvan-br{0%{transform:translate(0,0) scale(.4);opacity:0}15%{opacity:1}80%{opacity:.9}100%{transform:translate(4px,-36px) scale(1.05);opacity:0}}
+.sc-hayvan .pw{animation:3.6s linear infinite}
+.sc-hayvan .p0{animation-name:hayvan-p0}
+@keyframes hayvan-p0{0%{opacity:0}5%{opacity:1}42%{opacity:1}52%{opacity:0}100%{opacity:0}}
+.sc-hayvan .p1{animation-name:hayvan-p1}
+@keyframes hayvan-p1{0%{opacity:0}12.5%{opacity:0}17.5%{opacity:1}54.5%{opacity:1}64.5%{opacity:0}100%{opacity:0}}
+.sc-hayvan .p2{animation-name:hayvan-p2}
+@keyframes hayvan-p2{0%{opacity:0}25%{opacity:0}30%{opacity:1}67%{opacity:1}77%{opacity:0}100%{opacity:0}}
+.sc-hayvan .p3{animation-name:hayvan-p3}
+@keyframes hayvan-p3{0%{opacity:0}37.5%{opacity:0}42.5%{opacity:1}79.5%{opacity:1}89.5%{opacity:0}100%{opacity:0}}
+.sc-hayvan .p4{animation-name:hayvan-p4}
+@keyframes hayvan-p4{0%{opacity:.2}2%{opacity:0}50%{opacity:0}55%{opacity:1}92%{opacity:1}100%{opacity:.2}}
+.sc-hayvan .p5{animation-name:hayvan-p5}
+@keyframes hayvan-p5{0%{opacity:1}4.5%{opacity:1}14.5%{opacity:0}62.5%{opacity:0}67.5%{opacity:1}100%{opacity:1}}
+.sc-hayvan .p6{animation-name:hayvan-p6}
+@keyframes hayvan-p6{0%{opacity:1}17%{opacity:1}27%{opacity:0}75%{opacity:0}80%{opacity:1}100%{opacity:1}}
+.sc-hayvan .p7{animation-name:hayvan-p7}
+@keyframes hayvan-p7{0%{opacity:1}29.5%{opacity:1}39.5%{opacity:0}87.5%{opacity:0}92.5%{opacity:1}100%{opacity:1}}
+.sc-yilan .q0{animation:yilan-q0 1.8s infinite}
+@keyframes yilan-q0{0%{transform:translateY(7.5px);animation-timing-function:cubic-bezier(.333,0,.667,1)}50%{transform:translateY(-7.5px);animation-timing-function:cubic-bezier(.333,0,.667,1)}100%{transform:translateY(7.5px)}}
+.sc-yilan .q1{animation:yilan-q1 1.8s infinite}
+@keyframes yilan-q1{0%{transform:translateY(6.495px);animation-timing-function:cubic-bezier(.333,.234,.667,1)}41.67%{transform:translateY(-7.5px);animation-timing-function:cubic-bezier(.333,0,.667,1)}91.67%{transform:translateY(7.5px);animation-timing-function:cubic-bezier(.333,0,.667,.349)}100%{transform:translateY(6.495px)}}
+.sc-yilan .q2{animation:yilan-q2 1.8s infinite}
+@keyframes yilan-q2{0%{transform:translateY(3.75px);animation-timing-function:cubic-bezier(.333,.403,.667,1)}33.33%{transform:translateY(-7.5px);animation-timing-function:cubic-bezier(.333,0,.667,1)}83.33%{transform:translateY(7.5px);animation-timing-function:cubic-bezier(.333,0,.667,.395)}100%{transform:translateY(3.75px)}}
+.sc-yilan .q3{animation:yilan-q3 1.8s infinite}
+@keyframes yilan-q3{0%{transform:translateY(0px);animation-timing-function:cubic-bezier(.333,.524,.667,1)}25%{transform:translateY(-7.5px);animation-timing-function:cubic-bezier(.333,0,.667,1)}75%{transform:translateY(7.5px);animation-timing-function:cubic-bezier(.333,0,.667,.476)}100%{transform:translateY(0px)}}
+.sc-yilan .q4{animation:yilan-q4 1.8s infinite}
+@keyframes yilan-q4{0%{transform:translateY(-3.75px);animation-timing-function:cubic-bezier(.333,.605,.667,1)}16.67%{transform:translateY(-7.5px);animation-timing-function:cubic-bezier(.333,0,.667,1)}66.67%{transform:translateY(7.5px);animation-timing-function:cubic-bezier(.333,0,.667,.597)}100%{transform:translateY(-3.75px)}}
+.sc-yilan .q5{animation:yilan-q5 1.8s infinite}
+@keyframes yilan-q5{0%{transform:translateY(-6.495px);animation-timing-function:cubic-bezier(.333,.651,.667,1)}8.33%{transform:translateY(-7.5px);animation-timing-function:cubic-bezier(.333,0,.667,1)}58.33%{transform:translateY(7.5px);animation-timing-function:cubic-bezier(.333,0,.667,.766)}100%{transform:translateY(-6.495px)}}
+.sc-yilan .q6{animation:yilan-q6 1.8s infinite}
+@keyframes yilan-q6{0%{transform:translateY(-7.5px);animation-timing-function:cubic-bezier(.333,0,.667,1)}50%{transform:translateY(7.5px);animation-timing-function:cubic-bezier(.333,0,.667,1)}100%{transform:translateY(-7.5px)}}
+.sc-yilan .q7{animation:yilan-q7 1.8s infinite}
+@keyframes yilan-q7{0%{transform:translateY(-6.495px);animation-timing-function:cubic-bezier(.333,.234,.667,1)}41.67%{transform:translateY(7.5px);animation-timing-function:cubic-bezier(.333,0,.667,1)}91.67%{transform:translateY(-7.5px);animation-timing-function:cubic-bezier(.333,0,.667,.349)}100%{transform:translateY(-6.495px)}}
+.sc-yilan .q8{animation:yilan-q8 1.8s infinite}
+@keyframes yilan-q8{0%{transform:translateY(-3.75px);animation-timing-function:cubic-bezier(.333,.403,.667,1)}33.33%{transform:translateY(7.5px);animation-timing-function:cubic-bezier(.333,0,.667,1)}83.33%{transform:translateY(-7.5px);animation-timing-function:cubic-bezier(.333,0,.667,.395)}100%{transform:translateY(-3.75px)}}
+.sc-yilan .q9{animation:yilan-q9 1.8s infinite}
+@keyframes yilan-q9{0%{transform:translateY(0px);animation-timing-function:cubic-bezier(.333,.524,.667,1)}25%{transform:translateY(7.5px);animation-timing-function:cubic-bezier(.333,0,.667,1)}75%{transform:translateY(-7.5px);animation-timing-function:cubic-bezier(.333,0,.667,.476)}100%{transform:translateY(0px)}}
+.sc-yilan .q10{animation:yilan-q10 1.8s infinite}
+@keyframes yilan-q10{0%{transform:translateY(3.75px);animation-timing-function:cubic-bezier(.333,.605,.667,1)}16.67%{transform:translateY(7.5px);animation-timing-function:cubic-bezier(.333,0,.667,1)}66.67%{transform:translateY(-7.5px);animation-timing-function:cubic-bezier(.333,0,.667,.597)}100%{transform:translateY(3.75px)}}
+.sc-yilan .q11{animation:yilan-q11 1.8s infinite}
+@keyframes yilan-q11{0%{transform:translateY(6.495px);animation-timing-function:cubic-bezier(.333,.651,.667,1)}8.33%{transform:translateY(7.5px);animation-timing-function:cubic-bezier(.333,0,.667,1)}58.33%{transform:translateY(-7.5px);animation-timing-function:cubic-bezier(.333,0,.667,.766)}100%{transform:translateY(6.495px)}}
+.sc-yilan .hr{transform-box:fill-box;transform-origin:30% 50%;animation:yilan-tilt 1.8s infinite}
+@keyframes yilan-tilt{0%{transform:rotate(0deg);animation-timing-function:cubic-bezier(.333,.524,.667,1)}25%{transform:rotate(-20deg);animation-timing-function:cubic-bezier(.333,0,.667,1)}75%{transform:rotate(20deg);animation-timing-function:cubic-bezier(.333,0,.667,.476)}100%{transform:rotate(0deg)}}
+.sc-yilan .tg{transform-box:fill-box;transform-origin:0 50%;animation:yilan-tongue 2.4s ease-in-out infinite}
+@keyframes yilan-tongue{0%,52%{transform:scaleX(0);opacity:0}58%{transform:scaleX(1);opacity:1}64%{transform:scaleX(.6)}70%{transform:scaleX(1)}78%{transform:scaleX(0);opacity:1}80%,100%{transform:scaleX(0);opacity:0}}
+.sc-bocek .bx{animation:bocek-x 4s infinite}
+@keyframes bocek-x{0%{transform:translateX(-62px);animation-timing-function:cubic-bezier(.333,0,.667,1)}50%{transform:translateX(62px);animation-timing-function:cubic-bezier(.333,0,.667,1)}100%{transform:translateX(-62px)}}
+.sc-bocek .by{animation:bocek-y 2s infinite}
+@keyframes bocek-y{0%{transform:translateY(0px);animation-timing-function:cubic-bezier(.333,.524,.667,1)}25%{transform:translateY(-22px);animation-timing-function:cubic-bezier(.333,0,.667,1)}75%{transform:translateY(22px);animation-timing-function:cubic-bezier(.333,0,.667,.476)}100%{transform:translateY(0px)}}
+.sc-bocek .bf{transform-box:fill-box;transform-origin:center;animation:bocek-flip 4s ease-in-out infinite}
+@keyframes bocek-flip{0%{transform:scaleX(0)}4%,46%{transform:scaleX(1)}50%{transform:scaleX(0)}54%,96%{transform:scaleX(-1)}100%{transform:scaleX(0)}}
+.sc-bocek .wing{transform-box:fill-box;transform-origin:50% 100%;animation:bocek-flap 1.2s ease-in-out infinite}
+@keyframes bocek-flap{0%,25%,50%,75%,100%{transform:scaleY(1)}12.5%,37.5%,62.5%,87.5%{transform:scaleY(.4)}}
+.sc-bocek .halo{transform-box:fill-box;transform-origin:center;animation:bocek-swell 2.4s ease-in-out infinite}
+@keyframes bocek-swell{0%,100%{transform:scale(.85);opacity:.7}50%{transform:scale(1.15);opacity:1}}
+.sc-bocek .bump{transform-box:fill-box;transform-origin:center;animation:bocek-bump 2.4s ease-in-out infinite}
+@keyframes bocek-bump{0%,100%{transform:scale(1)}50%{transform:scale(1.1)}}
+.sc-bocek .tick{transform-box:fill-box;transform-origin:center;animation:bocek-tick 2.8s ease-in-out infinite}
+@keyframes bocek-tick{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+.sc-denizanasi .wv1{animation:denizanasi-w1 3s linear infinite}
+@keyframes denizanasi-w1{to{transform:translateX(40px)}}
+.sc-denizanasi .wv2{animation:denizanasi-w2 4s linear infinite}
+@keyframes denizanasi-w2{to{transform:translateX(-40px)}}
+.sc-denizanasi .jelly{animation:denizanasi-float 3.6s ease-in-out infinite}
+@keyframes denizanasi-float{0%,100%{transform:translateY(6px)}50%{transform:translateY(-7px)}}
+.sc-denizanasi .bell{transform-box:fill-box;transform-origin:50% 100%;animation:denizanasi-pulse 1.8s ease-in-out infinite}
+@keyframes denizanasi-pulse{0%,100%{transform:scale(1,1)}40%{transform:scale(1.06,.9)}70%{transform:scale(.98,1.03)}}
+.sc-denizanasi .tn{transform-box:fill-box;transform-origin:50% 0;animation:denizanasi-sway 2.4s ease-in-out infinite}
+.sc-denizanasi .t2{animation-duration:2.8s}.sc-denizanasi .t3{animation-duration:2.2s}.sc-denizanasi .t4{animation-duration:2.6s}.sc-denizanasi .t5{animation-duration:3s}.sc-denizanasi .t6{animation-duration:3.4s}
+@keyframes denizanasi-sway{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+.sc-denizanasi .bb{animation:denizanasi-rise 3.4s ease-in infinite}
+.sc-denizanasi .b2{animation-duration:4s}.sc-denizanasi .b3{animation-duration:3.7s}.sc-denizanasi .b4{animation-duration:3s}.sc-denizanasi .b5{animation-duration:4.4s}
+@keyframes denizanasi-rise{0%{transform:translateY(0);opacity:0}12%{opacity:1}82%{opacity:.9}100%{transform:translateY(-118px);opacity:0}}
+.sc-denizanasi .sw{transform-box:fill-box;transform-origin:50% 100%;animation:denizanasi-weed 3.2s ease-in-out infinite}
+.sc-denizanasi .sw2{animation-duration:3.8s}
+@keyframes denizanasi-weed{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(5deg)}}
+.sc-zehir .pl{transform-box:fill-box;transform-origin:center;animation:3.6s linear infinite}
+.sc-zehir .p1{animation-name:zehir-p1}.sc-zehir .p2{animation-name:zehir-p2}.sc-zehir .p3{animation-name:zehir-p3}
+@keyframes zehir-p1{0%{transform:translate(0,4px) rotate(0);opacity:0}0%{transform:translate(0,4px) rotate(0);opacity:0;animation-timing-function:cubic-bezier(.2,.6,.4,1)}4%{opacity:1}12%{transform:translate(6.6px,-16px) rotate(70deg);animation-timing-function:cubic-bezier(.6,0,.8,.4)}30%{transform:translate(22px,67px) rotate(200deg);animation-timing-function:cubic-bezier(.2,.6,.4,1)}36%{transform:translate(26px,59px) rotate(230deg);animation-timing-function:cubic-bezier(.6,0,.8,.4)}42%{transform:translate(29px,67px) rotate(250deg)}86%{transform:translate(29px,67px) rotate(250deg);opacity:1}94%{transform:translate(29px,67px) rotate(250deg);opacity:0}95%{transform:translate(0,4px) rotate(0);opacity:0}100%{transform:translate(0,4px) rotate(0);opacity:0}}
+@keyframes zehir-p2{0%{transform:translate(0,4px) rotate(0);opacity:0}12%{transform:translate(0,4px) rotate(0);opacity:0;animation-timing-function:cubic-bezier(.2,.6,.4,1)}16%{opacity:1}24%{transform:translate(12.6px,-24px) rotate(70deg);animation-timing-function:cubic-bezier(.6,0,.8,.4)}42%{transform:translate(42px,67px) rotate(200deg);animation-timing-function:cubic-bezier(.2,.6,.4,1)}48%{transform:translate(46px,59px) rotate(230deg);animation-timing-function:cubic-bezier(.6,0,.8,.4)}54%{transform:translate(49px,67px) rotate(250deg)}86%{transform:translate(49px,67px) rotate(250deg);opacity:1}94%{transform:translate(49px,67px) rotate(250deg);opacity:0}95%{transform:translate(0,4px) rotate(0);opacity:0}100%{transform:translate(0,4px) rotate(0);opacity:0}}
+@keyframes zehir-p3{0%{transform:translate(0,4px) rotate(0);opacity:0}24%{transform:translate(0,4px) rotate(0);opacity:0;animation-timing-function:cubic-bezier(.2,.6,.4,1)}28%{opacity:1}36%{transform:translate(18px,-18px) rotate(70deg);animation-timing-function:cubic-bezier(.6,0,.8,.4)}54%{transform:translate(60px,67px) rotate(200deg);animation-timing-function:cubic-bezier(.2,.6,.4,1)}60%{transform:translate(64px,59px) rotate(230deg);animation-timing-function:cubic-bezier(.6,0,.8,.4)}66%{transform:translate(67px,67px) rotate(250deg)}86%{transform:translate(67px,67px) rotate(250deg);opacity:1}94%{transform:translate(67px,67px) rotate(250deg);opacity:0}95%{transform:translate(0,4px) rotate(0);opacity:0}100%{transform:translate(0,4px) rotate(0);opacity:0}}
+.sc-zehir .poison{transform-box:fill-box;transform-origin:50% 100%;animation:zehir-wob 2.6s ease-in-out infinite}
+@keyframes zehir-wob{0%,100%{transform:rotate(-2.5deg)}50%{transform:rotate(2.5deg)}}
+.sc-zehir .cloud{animation:zehir-drift 4s ease-in-out infinite}
+@keyframes zehir-drift{0%,100%{transform:translateX(-8px)}50%{transform:translateX(10px)}}
+.sc-zehir .puff{transform-box:fill-box;transform-origin:center;animation:zehir-puff 2s ease-in-out infinite}
+.sc-zehir .f2{animation-duration:2.6s}
+@keyframes zehir-puff{0%,100%{transform:scale(.6);opacity:.3}50%{transform:scale(1.1);opacity:1}}
+.sc-alerji .hv{transform-box:fill-box;transform-origin:center;animation:4s ease-out infinite}
+.sc-alerji .h0{animation-name:alerji-h0}
+@keyframes alerji-h0{0%,4%{transform:scale(0);opacity:0}8%{transform:scale(1.18);opacity:1}12%{transform:scale(1)}88%{transform:scale(1);opacity:1}96%,100%{transform:scale(1);opacity:0}}
+.sc-alerji .h1{animation-name:alerji-h1}
+@keyframes alerji-h1{0%,12.5%{transform:scale(0);opacity:0}16.5%{transform:scale(1.18);opacity:1}20.5%{transform:scale(1)}88%{transform:scale(1);opacity:1}96%,100%{transform:scale(1);opacity:0}}
+.sc-alerji .h2{animation-name:alerji-h2}
+@keyframes alerji-h2{0%,21%{transform:scale(0);opacity:0}25%{transform:scale(1.18);opacity:1}29%{transform:scale(1)}88%{transform:scale(1);opacity:1}96%,100%{transform:scale(1);opacity:0}}
+.sc-alerji .h3{animation-name:alerji-h3}
+@keyframes alerji-h3{0%,29.5%{transform:scale(0);opacity:0}33.5%{transform:scale(1.18);opacity:1}37.5%{transform:scale(1)}88%{transform:scale(1);opacity:1}96%,100%{transform:scale(1);opacity:0}}
+.sc-alerji .h4{animation-name:alerji-h4}
+@keyframes alerji-h4{0%,38%{transform:scale(0);opacity:0}42%{transform:scale(1.18);opacity:1}46%{transform:scale(1)}88%{transform:scale(1);opacity:1}96%,100%{transform:scale(1);opacity:0}}
+.sc-alerji .h5{animation-name:alerji-h5}
+@keyframes alerji-h5{0%,46.5%{transform:scale(0);opacity:0}50.5%{transform:scale(1.18);opacity:1}54.5%{transform:scale(1)}88%{transform:scale(1);opacity:1}96%,100%{transform:scale(1);opacity:0}}
+.sc-alerji .h6{animation-name:alerji-h6}
+@keyframes alerji-h6{0%,55%{transform:scale(0);opacity:0}59%{transform:scale(1.18);opacity:1}63%{transform:scale(1)}88%{transform:scale(1);opacity:1}96%,100%{transform:scale(1);opacity:0}}
+.sc-alerji .pen{animation:alerji-press 2.4s ease-in-out infinite}
+@keyframes alerji-press{0%,30%{transform:translateY(0)}40%,64%{transform:translateY(7px)}76%,100%{transform:translateY(0)}}
+.sc-alerji .tip{transform-box:fill-box;transform-origin:50% 100%;animation:alerji-tip 2.4s ease-in-out infinite}
+@keyframes alerji-tip{0%,30%{transform:translateY(0) scaleY(1)}40%,64%{transform:translateY(-7px) scaleY(.68)}76%,100%{transform:translateY(0) scaleY(1)}}
+.sc-alerji .burst{transform-box:fill-box;transform-origin:50% 0;animation:alerji-burst 2.4s ease-out infinite}
+@keyframes alerji-burst{0%,38%{transform:scale(.5);opacity:0}44%{transform:scale(1);opacity:1}62%{transform:scale(1.15);opacity:0}100%{opacity:0}}
+.sc-duyu .eye{transform-box:fill-box;transform-origin:center;animation:duyu-blink 3.6s ease-in-out infinite}
+@keyframes duyu-blink{0%,40%,48%,100%{transform:scaleY(1)}44%{transform:scaleY(.12)}}
+.sc-duyu .speck{animation:duyu-speck 3s ease-in-out infinite}
+@keyframes duyu-speck{0%,100%{transform:translate(0,0)}25%{transform:translate(4px,-4px)}50%{transform:translate(7px,1px)}75%{transform:translate(3px,4px)}}
+.sc-duyu .hl{transform-box:fill-box;transform-origin:center;animation:duyu-hl 4.8s ease-in-out infinite}
+@keyframes duyu-hl{0%,22%{transform:translate(0,0) scale(1)}33%,55%{transform:translate(-49px,18px) scale(1.3)}66%,88%{transform:translate(27px,26px) scale(.95)}100%{transform:translate(0,0) scale(1)}}
+.sc-ilkyardim .pulse{animation:ilkyardim-pulse 2.4s linear infinite}
+@keyframes ilkyardim-pulse{0%{stroke-dashoffset:16}100%{stroke-dashoffset:-134}}
+.sc-ilkyardim .kit{transform-box:fill-box;transform-origin:50% 100%;animation:ilkyardim-bounce 2.4s infinite}
+@keyframes ilkyardim-bounce{0%{transform:translateY(0) scale(1.04,.95);animation-timing-function:ease-out}12%{transform:translateY(0) scale(1,1);animation-timing-function:cubic-bezier(.2,.6,.4,1)}48%{transform:translateY(-12px) scale(1,1);animation-timing-function:cubic-bezier(.6,0,.8,.4)}88%{transform:translateY(0) scale(1,1);animation-timing-function:ease-out}100%{transform:translateY(0) scale(1.04,.95)}}
+.sc-ilkyardim .shadow{transform-box:fill-box;transform-origin:center;animation:ilkyardim-shadow 2.4s infinite}
+@keyframes ilkyardim-shadow{0%,12%,88%,100%{transform:scale(1);opacity:1;animation-timing-function:ease-in-out}48%{transform:scale(.8);opacity:.6;animation-timing-function:ease-in-out}}
+.sc-ilkyardim .sp{transform-box:fill-box;transform-origin:center;animation:2.4s ease-in-out infinite}
+.sc-ilkyardim .s1{animation-name:ilkyardim-s1}
+@keyframes ilkyardim-s1{0%{transform:scale(.3) rotate(0deg);opacity:0}18%{transform:scale(1) rotate(45deg);opacity:1}36%{transform:scale(.3) rotate(0deg);opacity:0}100%{transform:scale(.3) rotate(0deg);opacity:0}}
+.sc-ilkyardim .s2{animation-name:ilkyardim-s2}
+@keyframes ilkyardim-s2{0%{transform:scale(.3) rotate(0deg);opacity:0}25%{transform:scale(.3) rotate(0deg);opacity:0}43%{transform:scale(1) rotate(45deg);opacity:1}61%{transform:scale(.3) rotate(0deg);opacity:0}100%{transform:scale(.3) rotate(0deg);opacity:0}}
+.sc-ilkyardim .s3{animation-name:ilkyardim-s3}
+@keyframes ilkyardim-s3{0%{transform:scale(.3) rotate(0deg);opacity:0}50%{transform:scale(.3) rotate(0deg);opacity:0}68%{transform:scale(1) rotate(45deg);opacity:1}86%{transform:scale(.3) rotate(0deg);opacity:0}100%{transform:scale(.3) rotate(0deg);opacity:0}}
+.sc-ilkyardim .s4{animation-name:ilkyardim-s4}
+@keyframes ilkyardim-s4{0%{transform:scale(.728) rotate(27.5deg);opacity:.611}11%{transform:scale(.3) rotate(0deg);opacity:0}75%{transform:scale(.3) rotate(0deg);opacity:0}93%{transform:scale(1) rotate(45deg);opacity:1}100%{transform:scale(.728) rotate(27.5deg);opacity:.611}}
+.sc-cagri112 .phone{transform-box:fill-box;transform-origin:50% 60%;animation:cagri112-ring 2.4s ease-in-out infinite}
+@keyframes cagri112-ring{0%,40%,100%{transform:rotate(0)}5%,15%,25%{transform:rotate(-4deg)}10%,20%,30%{transform:rotate(4deg)}35%{transform:rotate(-1.5deg)}}
+.sc-cagri112 .r1{animation:cagri112-r1 2.4s ease-out infinite}
+@keyframes cagri112-r1{0%,100%{opacity:0}8%,30%{opacity:1}50%{opacity:0}}
+.sc-cagri112 .r2{animation:cagri112-r2 2.4s ease-out infinite}
+@keyframes cagri112-r2{0%,12%,100%{opacity:0}20%,38%{opacity:1}58%{opacity:0}}
+.sc-cagri112 .amb{animation:cagri112-bob 1.2s ease-in-out infinite}
+@keyframes cagri112-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.8px)}}
+.sc-cagri112 .wh{transform-box:fill-box;transform-origin:center;animation:cagri112-wheel 1.2s linear infinite}
+@keyframes cagri112-wheel{to{transform:rotate(-360deg)}}
+.sc-cagri112 .lane{animation:cagri112-lane 1.2s linear infinite}
+@keyframes cagri112-lane{to{stroke-dashoffset:-24}}
+.sc-cagri112 .glow{transform-box:fill-box;transform-origin:center;animation:cagri112-glow 1.6s ease-in-out infinite}
+@keyframes cagri112-glow{0%,100%{transform:scale(.7);opacity:.25}50%{transform:scale(1.1);opacity:.85}}
+.sc-cagri112 .spd{animation:cagri112-spd 1.2s ease-out infinite}
+@keyframes cagri112-spd{0%{transform:translateX(-4px);opacity:0}30%{opacity:1}100%{transform:translateX(6px);opacity:0}}
+.sc-degerlendirme .mg{animation:degerlendirme-mg 4.8s ease-in-out infinite}
+@keyframes degerlendirme-mg{0%,14%{transform:translateY(0)}22%,36%{transform:translateY(26px)}44%,58%{transform:translateY(52px)}66%,82%{transform:translateY(78px)}94%,100%{transform:translateY(0)}}
+.sc-degerlendirme .tk{animation:4.8s ease-out infinite}
+.sc-degerlendirme .k0{animation-name:degerlendirme-k0}
+@keyframes degerlendirme-k0{0%,4%{stroke-dashoffset:1;opacity:1}10%{stroke-dashoffset:0}86%{stroke-dashoffset:0;opacity:1}92%{stroke-dashoffset:0;opacity:0}93%,100%{stroke-dashoffset:1;opacity:0}}
+.sc-degerlendirme .k1{animation-name:degerlendirme-k1}
+@keyframes degerlendirme-k1{0%,26%{stroke-dashoffset:1;opacity:1}32%{stroke-dashoffset:0}86%{stroke-dashoffset:0;opacity:1}92%{stroke-dashoffset:0;opacity:0}93%,100%{stroke-dashoffset:1;opacity:0}}
+.sc-degerlendirme .k2{animation-name:degerlendirme-k2}
+@keyframes degerlendirme-k2{0%,48%{stroke-dashoffset:1;opacity:1}54%{stroke-dashoffset:0}86%{stroke-dashoffset:0;opacity:1}92%{stroke-dashoffset:0;opacity:0}93%,100%{stroke-dashoffset:1;opacity:0}}
+.sc-degerlendirme .k3{animation-name:degerlendirme-k3}
+@keyframes degerlendirme-k3{0%,70%{stroke-dashoffset:1;opacity:1}76%{stroke-dashoffset:0}86%{stroke-dashoffset:0;opacity:1}92%{stroke-dashoffset:0;opacity:0}93%,100%{stroke-dashoffset:1;opacity:0}}
+.sc-degerlendirme .ask{animation:degerlendirme-ask 2.4s ease-in-out infinite}
+@keyframes degerlendirme-ask{0%,100%{transform:translateY(2px)}50%{transform:translateY(-3px)}}
+.sc-degerlendirme .warn{transform-box:fill-box;transform-origin:50% 100%;animation:degerlendirme-warn 2.4s ease-in-out infinite}
+@keyframes degerlendirme-warn{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+.sc-anatomi .heart{transform-box:fill-box;transform-origin:center;animation:anatomi-beat 1.2s ease-in-out infinite}
+@keyframes anatomi-beat{0%,48%,100%{transform:scale(1)}12%{transform:scale(1.2)}24%{transform:scale(1)}36%{transform:scale(1.1)}}
+.sc-anatomi .lungs{transform-box:fill-box;transform-origin:50% 30%;animation:anatomi-breathe 3.2s ease-in-out infinite}
+@keyframes anatomi-breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.07,1.05)}}
+.sc-anatomi .blood{animation:anatomi-flow 2.4s linear infinite}
+@keyframes anatomi-flow{to{stroke-dashoffset:-20}}
+.sc-anatomi .blood2{animation:anatomi-flow 2.4s linear infinite}

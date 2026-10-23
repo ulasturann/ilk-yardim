@@ -14,8 +14,6 @@ export default {
 <circle cx="115" cy="32" r="2" fill="#1F2A44" stroke="none"/><circle cx="125" cy="32" r="2" fill="#1F2A44" stroke="none"/>
 <path d="M101 60L114 94M139 60L126 94" stroke-width="16"/>
 <path d="M101 60L114 94M139 60L126 94" stroke="#F6C9A8" stroke-width="11"/>
-<path d="M100 57L104.5 70M140 57L135.5 70" stroke-width="19"/>
-<path d="M100 57L104.5 70M140 57L135.5 70" stroke="#E5484D" stroke-width="14"/>
 </g>
 <path d="M176 136H262" stroke-width="25"/><path d="M176 136H262" stroke="#3E7BFA" stroke-width="19"/>
 <path d="M262 145V121Q262 109 271 109Q280 109 280 121V145Z" fill="#fff"/>
@@ -42,11 +40,13 @@ export default {
     tint: '#FFF0E6',
     svg: `<svg class="scene sc-bebek" viewBox="0 0 320 180" role="img" aria-label="Sırtüstü yatan bebeğin göğsüne iki parmakla nazik bası"><g stroke="#1F2A44" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
 <rect x="34" y="138" width="218" height="14" rx="7" fill="#9EC5FF"/>
-<path d="M156 128Q164 104 180 106Q190 108 194 122" stroke-width="17"/><path d="M156 128Q164 104 180 106Q190 108 194 122" stroke="#E3A982" stroke-width="12"/>
-<ellipse cx="198" cy="124" rx="6" ry="4.5" fill="#E3A982"/>
+<path d="M174 108L188 124" stroke-width="16"/><path d="M174 108L188 124" stroke="#E3A982" stroke-width="11"/>
+<ellipse cx="193" cy="126" rx="7" ry="5" fill="#E3A982"/>
+<path d="M154 126L174 108" stroke-width="20"/><path d="M154 126L174 108" stroke="#FFC53D" stroke-width="15"/>
 <path class="chest" d="M104 139V120Q104 102 122 102H146Q166 102 168 122V139Z" fill="#FFC53D"/>
-<path d="M162 130Q172 106 188 108Q198 110 202 126" stroke-width="19"/><path d="M162 130Q172 106 188 108Q198 110 202 126" stroke="#F6C9A8" stroke-width="14"/>
-<ellipse cx="207" cy="128" rx="7" ry="5" fill="#F6C9A8"/>
+<path d="M184 110L198 127" stroke-width="17"/><path d="M184 110L198 127" stroke="#F6C9A8" stroke-width="12"/>
+<ellipse cx="204" cy="129" rx="8" ry="5.5" fill="#F6C9A8"/>
+<path d="M162 130L184 110" stroke-width="21"/><path d="M162 130L184 110" stroke="#FFC53D" stroke-width="16"/>
 <path d="M116 125L134 129" stroke-width="14"/><path d="M116 125L134 129" stroke="#F6C9A8" stroke-width="9"/>
 <circle cx="84" cy="116" r="24" fill="#F6C9A8"/>
 <path d="M68 99q-8-5-3-11q6-4 9 3"/>
@@ -54,8 +54,8 @@ export default {
 <path d="M92 108q4 3 8 0" stroke-width="2.5"/>
 <circle cx="99" cy="118" r="4" fill="#FF8A65" stroke="none" opacity=".55"/>
 <g class="hand">
-<path d="M139 72V100" stroke-width="11"/><path d="M139 72V100" stroke="#E3A982" stroke-width="6"/>
-<path d="M130 72V103" stroke-width="11"/><path d="M130 72V103" stroke="#F6C9A8" stroke-width="6"/>
+<path d="M140 72V100" stroke-width="12"/><path d="M140 72V100" stroke="#E3A982" stroke-width="7"/>
+<path d="M130 72V103" stroke-width="12"/><path d="M130 72V103" stroke="#F6C9A8" stroke-width="7"/>
 <path d="M206 -12L170 42" stroke-width="27"/><path d="M206 -12L170 42" stroke="#12A594" stroke-width="21" stroke-linecap="butt"/>
 <path d="M170 38Q178 52 166 64L150 76Q138 84 128 77Q122 70 130 62L152 42Q162 32 170 38Z" fill="#F6C9A8"/>
 <path d="M150 77q9 1 13-7M144 64l-8 9" stroke-width="2.5"/>
@@ -83,6 +83,7 @@ export default {
 <path class="zap" pathLength="100" d="M124 88C166 90 196 140 248 128" stroke="#FFC53D" stroke-width="5"/>
 <rect class="pad" x="210" y="76" width="24" height="30" rx="5" fill="#fff"/>
 <rect class="pad" x="246" y="110" width="24" height="30" rx="5" fill="#fff" transform="rotate(-18 258 125)"/>
+<g class="spk" stroke="#F97316" stroke-width="2.5"><path d="M205 73l-6-5M222 70v-8M239 73l6-5M205 109l-6 5M281 108l6-4M284 128h8M266 147l3 7"/></g>
 <rect x="46" y="26" width="48" height="28" rx="9" stroke-width="6"/>
 <rect x="16" y="42" width="108" height="104" rx="18" fill="#12A594"/>
 <rect x="28" y="54" width="84" height="32" rx="7" fill="#1F2A44"/>
@@ -142,7 +143,7 @@ export default {
 <path d="M118 106Q100 96 84.8 91.1Q80 86 75.7 86.2Q71 86.5 67.6 88.9L66.4 91.2L63.1 90.7Q62 93.6 60.9 93.6L53.1 90.5Q50 96 51.1 101.9L48.2 103.9Q43 107 42.6 112.2A28 28 0 0 0 84.1 142.9L114 150Z" fill="#F6C9A8"/>
 <path d="M52 110q3 4 8 3" stroke-width="2.5"/>
 <path d="M68 117q6 2 4 8" stroke-width="2.5"/>
-<path class="chest" d="M106 150V122Q106 100 128 100H214Q236 100 240 124V150Z" fill="#E9EEF5"/>
+<path class="chest" d="M106 150V122Q106 100 128 100H214Q236 100 240 124V150Z" fill="#9EC5FF"/>
 <path d="M66 92Q70 100 80 101L114 112Q126 117 136 124" stroke-width="9"/>
 <path d="M66 92Q70 100 80 101L114 112Q126 117 136 124" stroke="#fff" stroke-width="4"/>
 <path class="flow" d="M66 92Q70 100 80 101L114 112Q126 117 136 124" stroke="#3E7BFA" stroke-width="2" stroke-dasharray="3 6"/>
@@ -152,11 +153,8 @@ export default {
 <path d="M132 124h12M144 124q8-1 14-9M144 124q8 1 14 9M162 112l9-2M162 136l9 2" stroke="#fff" stroke-width="2.5"/>
 </g>
 <g class="br" stroke="#3E7BFA" stroke-width="2.5"><path d="M58 80q6-5 12 0"/><path d="M55 72q9-7 18 0"/><path d="M52 64q12-9 24 0"/></g>
-<path d="M4 46L28 92" stroke-width="20"/><path d="M4 46L26 88" stroke="#8E4EC6" stroke-width="14" stroke-linecap="butt"/>
-<ellipse cx="37" cy="102" rx="8" ry="14" transform="rotate(-28 37 102)" fill="#F6C9A8"/>
-<path d="M130 6L104 66" stroke-width="20"/><path d="M130 6L106 62" stroke="#8E4EC6" stroke-width="14" stroke-linecap="butt"/>
-<path d="M100 72Q92 92 80 92" stroke-width="11"/><path d="M100 72Q92 92 80 92" stroke="#F6C9A8" stroke-width="6"/>
-<ellipse cx="102" cy="72" rx="9" ry="10" fill="#F6C9A8"/>
+<g class="tilt" stroke="#E5484D" stroke-width="3.5"><path d="M40 86A42 42 0 0 0 24 112"/><path d="M17 105l7 9 8-6"/></g>
+<g class="lift" stroke="#E5484D" stroke-width="3.5"><path d="M93 84V62"/><path d="M86 69l7-8 7 8"/></g>
 </g></svg>`,
   },
 
@@ -297,8 +295,9 @@ export default {
 <path d="M58 148V126Q58 110 76 110H140Q156 110 160 124V148Z" fill="#9EC5FF"/>
 <circle cx="37" cy="137" r="16" fill="#1F2A44"/><circle cx="42" cy="132" r="16" fill="#F6C9A8"/>
 <path d="M46 124q3 2.5 6 0" stroke-width="2.5"/>
-<g class="blk"><path d="M62 150V112Q62 104 72 104H144Q158 104 164 112L198 96Q206 93 207 101L205 122Q190 138 178 150Z" fill="#FF8A65"/>
-<path d="M98 105V150M130 104V150M182 104l3 36" stroke="#fff" stroke-width="3" opacity=".6"/></g>
+<g class="blk"><path d="M62 150V110Q62 100 76 100Q104 97 132 101Q152 103 160 110L200 92Q208 89 209 97L207 121Q194 136 182 150Z" fill="#FF8A65"/>
+<path d="M104 99V150M140 102V150M184 101l3 36" stroke="#fff" stroke-width="3" opacity=".55"/>
+<path d="M62 150V110Q62 100 76 100L80 150Z" fill="#FFC53D"/></g>
 <rect x="20" y="20" width="164" height="40" rx="20" fill="#fff"/>
 <path class="hb" d="M42 48C34 43 33 36 37.5 34.5C40 33.7 42 36 42 37.5C42 36 44 33.7 46.5 34.5C51 36 50 43 42 48Z" fill="#E5484D" stroke-width="2.5"/>
 <g clip-path="url(#sok-clip)"><path class="pl" d="M58 41h4l1.5-6 2 8.5 1.5-2.5h5h4l1.5-6 2 8.5 1.5-2.5h5h4l1.5-6 2 8.5 1.5-2.5h5h4l1.5-6 2 8.5 1.5-2.5h5h4l1.5-6 2 8.5 1.5-2.5h5h4l1.5-6 2 8.5 1.5-2.5h5h4l1.5-6 2 8.5 1.5-2.5h5h4l1.5-6 2 8.5 1.5-2.5h5h4l1.5-6 2 8.5 1.5-2.5h5h4l1.5-6 2 8.5 1.5-2.5h5h4l1.5-6 2 8.5 1.5-2.5h5h4l1.5-6 2 8.5 1.5-2.5h5" stroke="#E5484D" stroke-width="2.5"/></g>
