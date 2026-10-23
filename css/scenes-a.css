@@ -90,6 +90,7 @@
 .sc-inme text { font-family: inherit; font-weight: 800; }
 .sc-inme .mr { transform-box: view-box; transform-origin: 86px 121px; animation: inme-droop 4s ease-in-out infinite; }
 .sc-inme .er { animation: inme-eye 4s ease-in-out infinite; }
+.sc-inme .lid { animation: inme-lid 4s ease-in-out infinite; }
 .sc-inme .ring { transform-box: fill-box; transform-origin: center; animation: inme-ring 2s ease-out infinite; }
 .sc-inme .spot { transform-box: fill-box; transform-origin: center; animation: inme-spot 2s ease-in-out infinite; }
 .sc-inme .t1 rect { animation: inme-r1 4s ease-in-out infinite; }
@@ -102,6 +103,7 @@
 .sc-inme .t4 text { animation: inme-x4 4s ease-in-out infinite; }
 @keyframes inme-droop { 0%, 6% { transform: rotate(0); } 24%, 74% { transform: rotate(26deg); } 92%, 100% { transform: rotate(0); } }
 @keyframes inme-eye { 0%, 6% { transform: translateY(0); } 24%, 74% { transform: translateY(2.5px); } 92%, 100% { transform: translateY(0); } }
+@keyframes inme-lid { 0%, 8% { opacity: 0; } 26%, 72% { opacity: 1; } 90%, 100% { opacity: 0; } }
 @keyframes inme-ring { 0% { transform: scale(1); opacity: .9; } 100% { transform: scale(3.2); opacity: 0; } }
 @keyframes inme-spot { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.25); } }
 @keyframes inme-r1 { 0%, 1% { fill: #fff; } 5%, 21% { fill: #8E4EC6; } 25%, 100% { fill: #fff; } }

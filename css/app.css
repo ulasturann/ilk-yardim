@@ -170,6 +170,9 @@ h1, h2, h3, p { margin: 0; }
 .countdown__text { display: grid; gap: 2px; }
 .countdown__text strong { font-family: var(--f-display); font-size: 20px; font-weight: 750; }
 .countdown__text span { color: var(--ink-2); font-size: 14.5px; }
+.countdown__text .countdown__tip { color: var(--ink); font-size: 13.5px; line-height: 1.35; margin-top: 4px; }
+.countdown { align-items: flex-start; }
+.countdown__days { margin-top: 2px; }
 
 .resume {
   width: 100%; display: flex; align-items: center; gap: 12px; text-align: left;
@@ -310,7 +313,7 @@ h1, h2, h3, p { margin: 0; }
 .qcard__topic {
   position: absolute; left: 12px; bottom: 10px; padding: 4px 10px; border-radius: 99px;
   background: rgba(255, 255, 255, .82); color: #1F2A44; font-size: 12.5px; font-weight: 700;
-  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); max-width: 60%;
+  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); max-width: calc(100% - 24px);
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 .verify {
@@ -346,7 +349,7 @@ h1, h2, h3, p { margin: 0; }
   position: relative; display: grid; grid-template-columns: 34px 1fr 22px; align-items: center; gap: 12px;
   width: 100%; min-height: 54px; padding: 10px 12px; text-align: left;
   background: var(--card); border: 1.5px solid var(--line); border-radius: var(--r-md);
-  font-size: 16.5px; line-height: 1.36; -webkit-user-select: text; user-select: text;
+  font-size: 16.5px; line-height: 1.36; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
   transition: background-color .22s, border-color .22s, opacity .22s, transform .12s var(--ease);
 }
 .opt:active { transform: scale(.985); }
@@ -394,6 +397,7 @@ h1, h2, h3, p { margin: 0; }
 .bottombar {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
   display: flex; gap: 10px; padding: 10px max(var(--gutter), calc((100vw - var(--maxw)) / 2 + var(--gutter))) calc(var(--safe-b) + 10px);
+  background: var(--paper);
   background: color-mix(in srgb, var(--paper) 86%, transparent);
   -webkit-backdrop-filter: saturate(1.4) blur(14px); backdrop-filter: saturate(1.4) blur(14px);
   border-top: 1px solid var(--line-2);

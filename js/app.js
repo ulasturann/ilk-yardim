@@ -66,7 +66,11 @@ function examInfo() {
   else if (days === 1) text = 'Sınav yarın';
   else if (days === 0) text = 'Sınav bugün, başarılar!';
   else text = 'Sınav tarihi geçti';
-  return { days, text, dateText };
+  let tip = '';
+  if (days >= 2) tip = 'Öneri: bugün öncelikli testleri (1, 2, 6) bitir, yarın yanlışlarını ve diğer testleri çöz.';
+  else if (days === 1) tip = 'Öneri: yanlışlarını tekrar çöz, sonra bir deneme sınavı yap.';
+  else if (days === 0) tip = 'Öneri: sınavdan önce öncelikli testlere cevaplı hızlı tekrarla göz at.';
+  return { days, text, dateText, tip };
 }
 
 // ------------------------------------------------------------------ oturumlar
@@ -175,7 +179,8 @@ function Home() {
     h('span', { class: 'countdown__days' }, ex.days > 0 ? String(ex.days) : '!'),
     h('span', { class: 'countdown__text' },
       h('strong', null, ex.text),
-      h('span', null, ex.dateText)));
+      h('span', null, ex.dateText),
+      ex.tip ? h('span', { class: 'countdown__tip' }, ex.tip) : null));
 
   let cont;
   if (resumable) {

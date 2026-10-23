@@ -107,13 +107,10 @@
 
 /* ---------- omurga ---------- */
 .sc-omurga .om-gl { animation: omurga-gl 3.6s ease-in-out infinite; }
-.sc-omurga .om-ch { transform-box: fill-box; transform-origin: center; animation: omurga-ch 4s ease-in-out infinite; }
-.sc-omurga .om-ax { animation: omurga-ax 4s linear infinite; }
-@keyframes omurga-gl { 0% { transform: translateX(0); opacity: 0; } 12% { opacity: 1; } 82% { opacity: 1; } 100% { transform: translateX(112px); opacity: 0; } }
-@keyframes omurga-ch { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.025, 1.04); } }
-@keyframes omurga-ax { to { stroke-dashoffset: -22; } }
+@keyframes omurga-gl { 0% { transform: translateY(0); opacity: 0; } 14% { opacity: 1; } 80% { opacity: 1; } 100% { transform: translateY(82px); opacity: 0; } }
 
 /* ---------- yanik ---------- */
+.sc-yanik text { font-family: inherit; font-weight: 800; }
 .sc-yanik .yn-fl { transform-box: fill-box; transform-origin: 50% 100%; animation: yanik-fl 4s ease-in-out infinite; }
 .sc-yanik .yn-fk { transform-box: fill-box; transform-origin: 50% 100%; animation: yanik-fk 1.2s ease-in-out infinite; }
 .sc-yanik .yn-st { transform-box: fill-box; transform-origin: 50% 0; animation: yanik-st 4s ease-in-out infinite; }
@@ -155,9 +152,6 @@
 .sc-donma .dn-f7 { animation-duration: 2.7s; animation-delay: -0.9s; }
 .sc-donma .dn-gl { transform-box: fill-box; transform-origin: center; animation: donma-gl 4s ease-in-out infinite; }
 .sc-donma .dn-lv { transform-box: fill-box; transform-origin: 50% 100%; animation: donma-lv 4s ease-in-out infinite; }
-.sc-donma .dn-h { animation: donma-h 2.4s ease-in-out infinite; }
-.sc-donma .dn-h2 { animation-delay: -0.8s; }
-.sc-donma .dn-h3 { animation-delay: -1.6s; }
 .sc-donma .dn-s { animation: donma-h 2.4s ease-in-out infinite; }
 .sc-donma .dn-s2 { animation-delay: -1.2s; }
 @keyframes donma-fall { 0% { transform: translate(0, -12px) rotate(0deg); } 50% { transform: translate(7px, 90px) rotate(90deg); } 100% { transform: translate(0, 194px) rotate(180deg); } }
@@ -184,12 +178,14 @@
 .sc-bogulma .bg-w2 { animation: bogulma-w2 3s linear infinite; }
 .sc-bogulma .bg-by { transform-box: fill-box; transform-origin: center; animation: bogulma-by 4s ease-in-out infinite; }
 .sc-bogulma .bg-hd { transform-box: fill-box; transform-origin: 50% 100%; animation: bogulma-hd 2.6s ease-in-out infinite; }
+.sc-bogulma .bg-sp { animation: bogulma-sp 2.6s ease-in-out infinite; }
 .sc-bogulma .bg-c1 { animation: bogulma-c 4s ease-in-out infinite; }
 .sc-bogulma .bg-c2 { animation: bogulma-c 4s ease-in-out infinite reverse; }
 @keyframes bogulma-w1 { to { transform: translateX(-80px); } }
 @keyframes bogulma-w2 { to { transform: translateX(64px); } }
 @keyframes bogulma-by { 0%, 100% { transform: translateY(-3px) rotate(-5deg); } 50% { transform: translateY(4px) rotate(5deg); } }
 @keyframes bogulma-hd { 0%, 100% { transform: translateY(2px) rotate(-3deg); } 50% { transform: translateY(-3px) rotate(3deg); } }
+@keyframes bogulma-sp { 0%, 100% { opacity: .2; } 50% { opacity: 1; } }
 @keyframes bogulma-c { 0%, 100% { transform: translateX(-4px); } 50% { transform: translateX(5px); } }
 
 /* ---------- rentek ---------- */

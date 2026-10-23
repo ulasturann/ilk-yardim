@@ -1,6 +1,6 @@
 // Cevrimdisi calisma: tum sorular, gorseller ve uygulama dosyalari ilk acilista
 // telefona indirilir. Bu dosya tools/build.py ile uretilir; elle duzenleme.
-const APP_VERSION = 'c02c62bd17';
+const APP_VERSION = '0d018a6d8f';
 const ASSET_VERSION = '9069b3ad63';
 const APP_CACHE = `ilkyardim-app-${APP_VERSION}`;
 const ASSET_CACHE = `ilkyardim-assets-${ASSET_VERSION}`;
