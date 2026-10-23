@@ -1,0 +1,220 @@
+/* Grup b sahne animasyonları. Tüm seçiciler .sc-KEY ile, keyframe'ler KEY- önekiyle başlar. */
+
+/* ---------- kanama ---------- */
+.sc-kanama .kn-press { animation: kanama-press 4s ease-in-out infinite; }
+.sc-kanama .kn-d1, .sc-kanama .kn-d2 { transform-box: fill-box; transform-origin: 50% 0; opacity: 0; }
+.sc-kanama .kn-d1 { animation: kanama-d1 4s ease-in infinite; }
+.sc-kanama .kn-d2 { animation: kanama-d2 4s ease-in infinite; }
+.sc-kanama .kn-ring { transform-box: fill-box; transform-origin: center; opacity: 0; animation: kanama-ring 4s ease-out infinite; }
+.sc-kanama .kn-tr { animation: kanama-tr 4s ease-in-out infinite; }
+@keyframes kanama-press {
+  0%, 26% { transform: translateY(-48px); opacity: 0; }
+  36% { transform: translateY(-4px); opacity: 1; }
+  42% { transform: translateY(0); }
+  52% { transform: translateY(2px); }
+  62% { transform: translateY(0); }
+  72% { transform: translateY(2px); }
+  84% { transform: translateY(0); opacity: 1; }
+  94%, 100% { transform: translateY(0); opacity: 0; }
+}
+@keyframes kanama-d1 {
+  0% { transform: translateY(0) scale(.2); opacity: 0; }
+  6% { transform: translateY(0) scale(1); opacity: 1; }
+  12% { transform: translateY(1px) scale(1); opacity: 1; }
+  21% { transform: translateY(20px) scale(1); opacity: 1; }
+  24%, 100% { transform: translateY(22px) scale(.5); opacity: 0; }
+}
+@keyframes kanama-d2 {
+  0%, 14% { transform: translateY(0) scale(.2); opacity: 0; }
+  20% { transform: translateY(0) scale(1); opacity: 1; }
+  26% { transform: translateY(1px) scale(1); opacity: 1; }
+  35% { transform: translateY(20px) scale(1); opacity: 1; }
+  38%, 100% { transform: translateY(22px) scale(.5); opacity: 0; }
+}
+@keyframes kanama-ring {
+  0%, 20% { transform: scale(.2); opacity: 0; }
+  22% { transform: scale(.4); opacity: .9; }
+  30% { transform: scale(1.4); opacity: 0; }
+  33% { transform: scale(.2); opacity: 0; }
+  36% { transform: scale(.4); opacity: .9; }
+  44%, 100% { transform: scale(1.4); opacity: 0; }
+}
+@keyframes kanama-tr { 0%, 38% { opacity: 1; } 50%, 92% { opacity: 0; } 100% { opacity: 1; } }
+
+/* ---------- yara ---------- */
+.sc-yara .yr-b { transform-box: fill-box; transform-origin: 50% 0; }
+.sc-yara .yr-b1 { animation: yara-b1 4s ease-in-out infinite; }
+.sc-yara .yr-b2 { animation: yara-b2 4s ease-in-out infinite; }
+.sc-yara .yr-b3 { animation: yara-b3 4s ease-in-out infinite; }
+.sc-yara .yr-b4 { animation: yara-b4 4s ease-in-out infinite; }
+.sc-yara .yr-roll { animation: yara-roll 4s ease-in-out infinite; }
+.sc-yara .yr-spin { transform-box: fill-box; transform-origin: center; animation: yara-spin 1.6s linear infinite; }
+.sc-yara .yr-pl { transform-box: fill-box; transform-origin: center; animation: yara-pl 3.2s ease-in-out infinite; }
+.sc-yara .yr-s1, .sc-yara .yr-s2, .sc-yara .yr-s3 { transform-box: fill-box; transform-origin: center; }
+.sc-yara .yr-s1 { animation: yara-s1 4s ease-in-out infinite; }
+.sc-yara .yr-s2 { animation: yara-s2 4s ease-in-out infinite; }
+.sc-yara .yr-s3 { animation: yara-s3 2.4s ease-in-out infinite; }
+@keyframes yara-b1 { 0%, 2% { transform: scaleY(.01); opacity: 1; } 14%, 86% { transform: scaleY(1); opacity: 1; } 94%, 100% { transform: scaleY(1); opacity: 0; } }
+@keyframes yara-b2 { 0%, 20% { transform: scaleY(.01); opacity: 1; } 32%, 86% { transform: scaleY(1); opacity: 1; } 94%, 100% { transform: scaleY(1); opacity: 0; } }
+@keyframes yara-b3 { 0%, 38% { transform: scaleY(.01); opacity: 1; } 50%, 86% { transform: scaleY(1); opacity: 1; } 94%, 100% { transform: scaleY(1); opacity: 0; } }
+@keyframes yara-b4 { 0%, 56% { transform: scaleY(.01); opacity: 1; } 68%, 86% { transform: scaleY(1); opacity: 1; } 94%, 100% { transform: scaleY(1); opacity: 0; } }
+@keyframes yara-roll {
+  0% { transform: translateX(0); opacity: 0; }
+  4%, 14% { transform: translateX(0); opacity: 1; }
+  20%, 32% { transform: translateX(22px); }
+  38%, 50% { transform: translateX(44px); }
+  56%, 68% { transform: translateX(66px); opacity: 1; }
+  76%, 100% { transform: translateX(66px); opacity: 0; }
+}
+@keyframes yara-spin { to { transform: rotate(360deg); } }
+@keyframes yara-pl { 0%, 100% { transform: translateY(-2px) rotate(-3deg); } 50% { transform: translateY(3px) rotate(3deg); } }
+@keyframes yara-s1 { 0%, 64% { transform: scale(0); opacity: 0; } 72% { transform: scale(1.15); opacity: 1; } 80% { transform: scale(.85); opacity: 1; } 88%, 100% { transform: scale(0); opacity: 0; } }
+@keyframes yara-s2 { 0%, 68% { transform: scale(0); opacity: 0; } 76% { transform: scale(1.15); opacity: 1; } 84% { transform: scale(.85); opacity: 1; } 92%, 100% { transform: scale(0); opacity: 0; } }
+@keyframes yara-s3 { 0%, 100% { transform: scale(.3); opacity: .2; } 50% { transform: scale(1); opacity: 1; } }
+
+/* ---------- kopma ---------- */
+.sc-kopma .km-bag { transform-box: fill-box; transform-origin: center; animation: kopma-bag 4s ease-in-out infinite; }
+.sc-kopma .km-i { transform-box: fill-box; transform-origin: center; }
+.sc-kopma .km-i1 { animation: kopma-ice 3s ease-in-out infinite; }
+.sc-kopma .km-i2 { animation: kopma-ice 3.6s ease-in-out infinite reverse; }
+.sc-kopma .km-i3 { animation: kopma-ice 2.8s ease-in-out infinite; }
+.sc-kopma .km-w { animation: kopma-w 3s linear infinite; }
+.sc-kopma .km-h { transform-box: fill-box; transform-origin: 50% 100%; animation: kopma-h 4s linear infinite; }
+@keyframes kopma-bag { 0%, 100% { transform: translateY(-2px) rotate(-1.5deg); } 50% { transform: translateY(2px) rotate(1.5deg); } }
+@keyframes kopma-ice { 0%, 100% { transform: translateY(-2px) rotate(-5deg); } 50% { transform: translateY(2px) rotate(5deg); } }
+@keyframes kopma-w { to { transform: translateX(-40px); } }
+@keyframes kopma-h { to { transform: rotate(360deg); } }
+
+/* ---------- kirik ---------- */
+.sc-kirik .kr-glow { transform-box: fill-box; transform-origin: center; animation: kirik-glow 4s ease-in-out infinite; }
+.sc-kirik .kr-t { transform-box: fill-box; transform-origin: 50% 0; }
+.sc-kirik .kr-t1 { animation: kirik-t1 4s ease-in-out infinite; }
+.sc-kirik .kr-t2 { animation: kirik-t2 4s ease-in-out infinite; }
+.sc-kirik .kr-t3 { animation: kirik-t3 4s ease-in-out infinite; }
+.sc-kirik .kr-t4 { animation: kirik-t4 4s ease-in-out infinite; }
+@keyframes kirik-glow {
+  0% { transform: scale(.85); opacity: .9; }
+  12% { transform: scale(1.1); opacity: 1; }
+  24% { transform: scale(.85); opacity: .85; }
+  36% { transform: scale(1.05); opacity: .8; }
+  60%, 86% { transform: scale(.8); opacity: .35; }
+  100% { transform: scale(.85); opacity: .9; }
+}
+@keyframes kirik-t1 { 0%, 14% { transform: scaleY(.01); opacity: 1; } 24%, 86% { transform: scaleY(1); opacity: 1; } 94%, 100% { transform: scaleY(1); opacity: 0; } }
+@keyframes kirik-t2 { 0%, 24% { transform: scaleY(.01); opacity: 1; } 34%, 86% { transform: scaleY(1); opacity: 1; } 94%, 100% { transform: scaleY(1); opacity: 0; } }
+@keyframes kirik-t3 { 0%, 34% { transform: scaleY(.01); opacity: 1; } 44%, 86% { transform: scaleY(1); opacity: 1; } 94%, 100% { transform: scaleY(1); opacity: 0; } }
+@keyframes kirik-t4 { 0%, 44% { transform: scaleY(.01); opacity: 1; } 54%, 86% { transform: scaleY(1); opacity: 1; } 94%, 100% { transform: scaleY(1); opacity: 0; } }
+
+/* ---------- omurga ---------- */
+.sc-omurga .om-gl { animation: omurga-gl 3.6s ease-in-out infinite; }
+.sc-omurga .om-ch { transform-box: fill-box; transform-origin: center; animation: omurga-ch 4s ease-in-out infinite; }
+.sc-omurga .om-ax { animation: omurga-ax 4s linear infinite; }
+@keyframes omurga-gl { 0% { transform: translateX(0); opacity: 0; } 12% { opacity: 1; } 82% { opacity: 1; } 100% { transform: translateX(112px); opacity: 0; } }
+@keyframes omurga-ch { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.025, 1.04); } }
+@keyframes omurga-ax { to { stroke-dashoffset: -22; } }
+
+/* ---------- yanik ---------- */
+.sc-yanik .yn-fl { transform-box: fill-box; transform-origin: 50% 100%; animation: yanik-fl 4s ease-in-out infinite; }
+.sc-yanik .yn-fk { transform-box: fill-box; transform-origin: 50% 100%; animation: yanik-fk 1.2s ease-in-out infinite; }
+.sc-yanik .yn-st { transform-box: fill-box; transform-origin: 50% 0; animation: yanik-st 4s ease-in-out infinite; }
+.sc-yanik .yn-fw { animation: yanik-fw 1.2s linear infinite; }
+.sc-yanik .yn-sh { transform-box: fill-box; transform-origin: center; animation: yanik-sh 4s ease-in-out infinite; }
+.sc-yanik .yn-burn { animation: yanik-burn 4s ease-in-out infinite; }
+.sc-yanik .yn-sp { transform-box: fill-box; transform-origin: 50% 100%; animation: yanik-sp 4s ease-out infinite; }
+@keyframes yanik-fl {
+  0%, 18% { transform: scale(1); opacity: 1; }
+  30% { transform: scale(.75); opacity: 1; }
+  48% { transform: scale(.15); opacity: 0; }
+  90% { transform: scale(.15); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+@keyframes yanik-fk { 0%, 100% { transform: scale(1, 1) skewX(0deg); } 30% { transform: scale(.96, 1.07) skewX(-3deg); } 65% { transform: scale(1.03, .95) skewX(3deg); } }
+@keyframes yanik-st { 0%, 16% { transform: scaleY(.01); opacity: 0; } 18% { opacity: 1; } 28%, 82% { transform: scaleY(1); opacity: 1; } 90%, 100% { transform: scaleY(.01); opacity: 0; } }
+@keyframes yanik-fw { to { stroke-dashoffset: -16; } }
+@keyframes yanik-sh { 0%, 26% { transform: scaleX(.01); opacity: 0; } 34%, 82% { transform: scaleX(1); opacity: 1; } 92%, 100% { transform: scaleX(1); opacity: 0; } }
+@keyframes yanik-burn { 0%, 26% { opacity: 1; } 60%, 88% { opacity: .1; } 100% { opacity: 1; } }
+@keyframes yanik-sp {
+  0%, 28% { transform: translateY(2px) scale(.4, .4); opacity: 0; }
+  32% { opacity: 1; }
+  42% { transform: translateY(-4px) scale(1.6, 1); opacity: 0; }
+  46% { transform: translateY(2px) scale(.4, .4); opacity: 0; }
+  50% { opacity: 1; }
+  60% { transform: translateY(-4px) scale(1.6, 1); opacity: 0; }
+  64% { transform: translateY(2px) scale(.4, .4); opacity: 0; }
+  68% { opacity: 1; }
+  78%, 100% { transform: translateY(-4px) scale(1.6, 1); opacity: 0; }
+}
+
+/* ---------- donma ---------- */
+.sc-donma .dn-f { transform-box: fill-box; transform-origin: center; animation: donma-fall 3.4s linear infinite; }
+.sc-donma .dn-f2 { animation-duration: 2.9s; animation-delay: -1.3s; }
+.sc-donma .dn-f3 { animation-duration: 3.8s; animation-delay: -2.2s; }
+.sc-donma .dn-f4 { animation-duration: 3.1s; animation-delay: -0.5s; }
+.sc-donma .dn-f5 { animation-duration: 4s; animation-delay: -3s; }
+.sc-donma .dn-f6 { animation-duration: 3.6s; animation-delay: -1.8s; }
+.sc-donma .dn-f7 { animation-duration: 2.7s; animation-delay: -0.9s; }
+.sc-donma .dn-gl { transform-box: fill-box; transform-origin: center; animation: donma-gl 4s ease-in-out infinite; }
+.sc-donma .dn-lv { transform-box: fill-box; transform-origin: 50% 100%; animation: donma-lv 4s ease-in-out infinite; }
+.sc-donma .dn-h { animation: donma-h 2.4s ease-in-out infinite; }
+.sc-donma .dn-h2 { animation-delay: -0.8s; }
+.sc-donma .dn-h3 { animation-delay: -1.6s; }
+.sc-donma .dn-s { animation: donma-h 2.4s ease-in-out infinite; }
+.sc-donma .dn-s2 { animation-delay: -1.2s; }
+@keyframes donma-fall { 0% { transform: translate(0, -12px) rotate(0deg); } 50% { transform: translate(7px, 90px) rotate(90deg); } 100% { transform: translate(0, 194px) rotate(180deg); } }
+@keyframes donma-gl { 0%, 100% { transform: scale(.9); opacity: .55; } 50% { transform: scale(1.06); opacity: 1; } }
+@keyframes donma-lv { 0%, 100% { transform: scaleY(.85); } 50% { transform: scaleY(.3); } }
+@keyframes donma-h { 0% { transform: translateY(4px); opacity: 0; } 40% { opacity: 1; } 100% { transform: translateY(-8px); opacity: 0; } }
+
+/* ---------- sicak ---------- */
+.sc-sicak .sh-ry { transform-box: fill-box; transform-origin: center; animation: sicak-ry 4s linear infinite; }
+.sc-sicak .sh-lv { transform-box: fill-box; transform-origin: 50% 100%; animation: sicak-lv 4s ease-in-out infinite; }
+.sc-sicak .sh-fan { transform-box: fill-box; transform-origin: 50% 100%; animation: sicak-fan 1.6s ease-in-out infinite; }
+.sc-sicak .sh-wd { animation: sicak-wd 1.6s ease-in-out infinite; }
+.sc-sicak .sh-d1, .sc-sicak .sh-d2 { transform-box: fill-box; transform-origin: 50% 0; }
+.sc-sicak .sh-d1 { animation: sicak-d 2.4s ease-in infinite; }
+.sc-sicak .sh-d2 { animation: sicak-d 2.4s ease-in infinite; animation-delay: -1.2s; }
+@keyframes sicak-ry { to { transform: rotate(30deg); } }
+@keyframes sicak-lv { 0%, 100% { transform: scaleY(.4); } 45%, 55% { transform: scaleY(1); } }
+@keyframes sicak-fan { 0%, 100% { transform: rotate(-16deg); } 50% { transform: rotate(16deg); } }
+@keyframes sicak-wd { 0%, 100% { opacity: .2; transform: translate(0, 0); } 50% { opacity: 1; transform: translate(-2px, 2px); } }
+@keyframes sicak-d { 0% { transform: translateY(0) scale(.3); opacity: 0; } 20% { transform: translateY(0) scale(1); opacity: 1; } 70% { transform: translateY(14px) scale(1); opacity: 1; } 85%, 100% { transform: translateY(16px) scale(.6); opacity: 0; } }
+
+/* ---------- bogulma ---------- */
+.sc-bogulma .bg-w1 { animation: bogulma-w1 4s linear infinite; }
+.sc-bogulma .bg-w2 { animation: bogulma-w2 3s linear infinite; }
+.sc-bogulma .bg-by { transform-box: fill-box; transform-origin: center; animation: bogulma-by 4s ease-in-out infinite; }
+.sc-bogulma .bg-hd { transform-box: fill-box; transform-origin: 50% 100%; animation: bogulma-hd 2.6s ease-in-out infinite; }
+.sc-bogulma .bg-c1 { animation: bogulma-c 4s ease-in-out infinite; }
+.sc-bogulma .bg-c2 { animation: bogulma-c 4s ease-in-out infinite reverse; }
+@keyframes bogulma-w1 { to { transform: translateX(-80px); } }
+@keyframes bogulma-w2 { to { transform: translateX(64px); } }
+@keyframes bogulma-by { 0%, 100% { transform: translateY(-3px) rotate(-5deg); } 50% { transform: translateY(4px) rotate(5deg); } }
+@keyframes bogulma-hd { 0%, 100% { transform: translateY(2px) rotate(-3deg); } 50% { transform: translateY(-3px) rotate(3deg); } }
+@keyframes bogulma-c { 0%, 100% { transform: translateX(-4px); } 50% { transform: translateX(5px); } }
+
+/* ---------- rentek ---------- */
+.sc-rentek .rt-pr { animation: rentek-pr 4s ease-in-out infinite; }
+.sc-rentek .rt-pa { animation: rentek-pa 1.2s linear infinite; }
+@keyframes rentek-pr {
+  0% { transform: translate(0, 0); opacity: 0; }
+  8%, 22% { transform: translate(0, 0); opacity: 1; }
+  45% { transform: translate(50px, -7px); }
+  70%, 86% { transform: translate(118px, 0); opacity: 1; }
+  95%, 100% { transform: translate(118px, 0); opacity: 0; }
+}
+@keyframes rentek-pa { to { stroke-dashoffset: -18; } }
+
+/* ---------- tasima ---------- */
+.sc-tasima .ts-gr { animation: tasima-gr 1.6s linear infinite; }
+.sc-tasima .ts-up { animation: tasima-up 1.6s ease-in-out infinite; }
+.sc-tasima .ts-a1, .sc-tasima .ts-a2, .sc-tasima .ts-b1, .sc-tasima .ts-b2 { transform-box: fill-box; transform-origin: 50% 0; }
+.sc-tasima .ts-a1 { animation: tasima-l1 1.6s linear infinite; }
+.sc-tasima .ts-a2 { animation: tasima-l2 1.6s linear infinite; }
+.sc-tasima .ts-b1 { animation: tasima-l3 1.6s linear infinite; }
+.sc-tasima .ts-b2 { animation: tasima-l4 1.6s linear infinite; }
+@keyframes tasima-gr { to { transform: translateX(-62px); } }
+@keyframes tasima-up { 0%, 50%, 100% { transform: translateY(0); } 25%, 75% { transform: translateY(-2.5px); } }
+@keyframes tasima-l1 { 0%, 100% { transform: rotate(-18deg); } 50% { transform: rotate(18deg); } }
+@keyframes tasima-l2 { 0%, 100% { transform: rotate(18deg); } 50% { transform: rotate(-18deg); } }
+@keyframes tasima-l3 { 0%, 100% { transform: rotate(0deg); } 25% { transform: rotate(18deg); } 75% { transform: rotate(-18deg); } }
+@keyframes tasima-l4 { 0%, 100% { transform: rotate(0deg); } 25% { transform: rotate(-18deg); } 75% { transform: rotate(18deg); } }

@@ -1,0 +1,17 @@
+{
+  "name": "İlk Yardım Sınavı",
+  "short_name": "İlk Yardım",
+  "description": "İlk yardım sınavına hazırlık: 8 test, 195 soru ve cevap anahtarı.",
+  "lang": "tr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#EDF3EF",
+  "theme_color": "#00875A",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
